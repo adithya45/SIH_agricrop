@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Styling for the heading */
+.weather-content h1 {
+  font-family: "Lobster Two", "Sans Serif";
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Container for the weather iframes */
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}

@@ -1,0 +1,69 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background: url('./12.jpg') no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .what-we-do {
+    display: flex;
+    padding: 60px 20px;
+    align-items: center;
+  }
+  
+  .half {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .half img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .divider {
+    width: 1px;
+    background-color: #ddd; /* Color of the dividing line */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .features li {
+    margin: 10px 0;
+  }
+  
+  .testimonials .testimonial {
+    margin: 20px auto;
+    max-width: 600px;
+    font-style: italic;
+  }
+  

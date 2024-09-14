@@ -1,0 +1,82 @@
+/* Navigation Bar CSS */
+#nav {
+  position: absolute; /* Allows floating effect */
+  top: 20px; /* Adjust as needed to position the navbar */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center alignment adjustment */
+  backdrop-filter: blur(15px); /* Creates the glassy effect with more blur */
+  background: rgba(255, 255, 255, 0.3); /* Transparent white background */
+  border-radius: 35px; /* Increase border-radius for a larger oblong shape */
+  padding: 15px 30px; /* Increased padding inside the navbar */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Larger shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.4); /* Light border for the glassy effect */
+  width: 3000px; /* Auto width to fit content */
+  max-width: 95%; /* Maximum width for responsiveness */
+  z-index: 1000; /* Ensure the navbar floats above other content */
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.navbar-brand .title {
+  font-family: "Lobster Two", sans-serif;
+  font-size: xx-large;
+  color: #8cc342; /* White text color */
+  margin-left: 10px;
+}
+
+.nav-button {
+  appearance: none;
+  background-color: #8cc342; /* Transparent white background */
+  border: 1px solid rgb(0, 0, 0); /* Light border */
+  border-radius: 8px;
+  color: #ffffff; /* White text color */
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding: 8px 16px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  margin: 0 5px; /* Spacing between buttons */
+}
+
+.nav-button:hover {
+  background-color: rgb(255, 255, 255); /* Slightly more opaque */
+  color: #8cc342; /* Dark text on hover */
+  transform: scale(1.05); /* Slightly enlarges on hover */
+}
+
+.nav-button:disabled {
+  background-color: rgba(255, 255, 255, 0.1); /* Disabled button style */
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #aaaaaa; /* Gray text */
+  cursor: not-allowed;
+}
+
+.navbar-nav .nav-link {
+  color: #8cc342; /* White text color for links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00bfff; /* Bright color on hover */
+  transform: scale(1.1); /* Underline effect on hover */}
+
+.navbar-nav .dropdown-menu {
+  background: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  backdrop-filter: blur(5px); /* Glass effect for dropdown */
+}
+
+.navbar-nav .dropdown-item {
+  color: #000000; /* Dark text color */
+}
+
+.navbar-nav .dropdown-item:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Subtle hover effect */
+}
+
+.title {
+  font-family: "Lobster Two", sans-serif;
+  font-size: xx-large;
+  color: #8cc342; /* White text color */
+}
